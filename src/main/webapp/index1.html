@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <form action="NewUserController" method="POST">
+            <label>username : </label>
+                <input type="text" name="username"><br>
+            <label>password : </label>
+                <input type="password" name="password"><br>
+            <label>email : </label>
+                <input type="text" name="email"><br>
+            <label>mobile number : </label>
+                <input type="text" name="mobile"><br>
+            <label>adress : </label>
+                <input type="text" name="adress"><br>
+            <label>First name : </label>
+                <input type="text" name="firstName"><br>
+            <label>Last name : </label>
+                <input type="text" name="lastName"><br>
+            <div>
+                <label>Teacher</label>
+                <input type="radio" name="teacher" value="true"/>
+            </div>
+             <div>
+                <label>Student</label>
+                <input type="radio" name="teacher" value="false"/>
+            </div>
+            
+            <input type="submit" value="submit"/>
+        </form>
+        <h1>Hello World!</h1>
+        <form action="LoginController" method="POST">
+            <label>username : </label>
+                <input type="text" name="username"><br>
+            <label>password : </label>
+                <input type="password" name="password"><br>
+            <input type="submit" value="submit"/>
+        </form>
+    </body>
+</html>
